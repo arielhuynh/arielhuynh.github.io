@@ -1,0 +1,25 @@
+.topnav {
+    background-color: black;
+}
+
+.topnav a {
+    float: right;
+    color: black;
+    padding: 8px 20px;
+    text-align: center;
+}
+h1 {
+    float: left;
+    color: red;
+    padding: 10px 15px;
+    background: black;
+}
+.footer {
+    position: fixed;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    border-top: 6px solid teal;
+}
