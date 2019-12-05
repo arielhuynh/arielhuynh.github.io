@@ -1,25 +1,99 @@
-.topnav {
-    background-color: black;
-}
-
-.topnav a {
-    float: right;
-    color: black;
-    padding: 8px 20px;
-    text-align: center;
-}
-h1 {
-    float: left;
-    color: red;
-    padding: 10px 15px;
-    background: black;
-}
 .footer {
     position: fixed;
-    text-align: center;
     left: 0;
     bottom: 0;
     width: 100%;
+    color: white;
     background-color: grey;
-    border-top: 6px solid teal;
+    text-align: center;
+    border-top: 8px solid#4aaaa5;
+    font-size: 15px;
+}
+.header {
+    background-color: white;
+    border-bottom: 3px solid grey;
+    padding: 100px;
+
+}
+.name {
+    color: white;
+    padding: 30px;
+    
+}
+
+li {
+    display: inline-block;
+}
+
+.content {
+    position: absolute;
+    top: 40%;
+    left: 18%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 1000px;
+    height: 500px;
+    padding: 0px;
+    border: 1px solid grey;
+    background-color: white;
+    padding: 20px;
+    
+}
+h1 {
+    display: block;
+    font-weight: bold;
+    float: left;
+    background-color: teal;
+    color: white;
+    padding: 30px;
+   
+
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+    float: right;
+    font-size: 20px;
+}
+.navbarbutton {
+    float: right;
+    top
+}
+body {
+    background-image: url('../images/checkerboard-cross.png');
+
+}
+h2 {
+    font-size: 25px;
+    color: teal;
+    border-bottom: 1px solid grey;
+    padding: 20px;
+}
+img {
+    float: left;
+    padding: 20px;
+}
+input[type=text] {
+    width: 95%;
+    padding: 5px;
+    border: 1px solid grey;
+
+}
+html {
+    overflow: scroll;
+}
+img {
+    height: 200px;
+    width: 200px;
+}
+.content .button {
+    position: absolute;
+    top: 50%;
+    background-color: teal;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border-radius: 5px;
+
 }
