@@ -45,3 +45,7 @@ li {
     
 }
 
+.card-title {
+    background-color: teal;
+    text-align: center;
+}
